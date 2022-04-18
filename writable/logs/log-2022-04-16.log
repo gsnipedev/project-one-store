@@ -1,0 +1,152 @@
+ERROR - 2022-04-16 01:23:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 01:23:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(68): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-16 08:25:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 08:25:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(27): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-16 08:26:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 08:26:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(68): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-16 09:55:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-16 09:55:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(27): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+CRITICAL - 2022-04-16 19:03:45 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-16 19:04:28 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-16 19:13:07 --> Unknown column 'likes.item_name' in 'on clause'
+CRITICAL - 2022-04-16 19:13:07 --> Unknown column 'likes.item_name' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(75): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-16 19:20:26 --> CodeIgniter\Database\BaseBuilder::join(): Argument #3 ($type) must be of type string, array given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join('user_data', 'user_data.user_...', Array)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(74): CodeIgniter\Model->__call('join', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-16 19:35:03 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 D:\Pemrograman\Website\project-one\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('likes_count', 'insert')
+#1 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert('likes_count', true)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(78): CodeIgniter\Model->insert('likes_count', true)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-16 19:35:21 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 D:\Pemrograman\Website\project-one\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('likes_count', 'insert')
+#1 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert('likes_count', true)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(78): CodeIgniter\Model->insert('likes_count', true)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-16 19:46:26 --> There is no data to update.
+#0 D:\Pemrograman\Website\project-one\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\Pemrograman\Website\project-one\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, NULL)
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\Model->update()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#9 {main}
+ERROR - 2022-04-16 20:04:59 --> Column 'item_id' in group statement is ambiguous
+CRITICAL - 2022-04-16 20:04:59 --> Column 'item_id' in group statement is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(78): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-16 20:14:32 --> Call to undefined method App\Models\ItemsModel::as
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(75): CodeIgniter\Model->__call('as', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}

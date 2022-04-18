@@ -1,0 +1,463 @@
+CRITICAL - 2022-04-09 01:07:40 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:07:48 --> Undefined property: App\Controllers\Itemsapi::$validationRules
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:08:03 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:08:51 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:09:27 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:09:28 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:32 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:42 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:43 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:43 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:57 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:58 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:10:59 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:12:30 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:12:31 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:12:31 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:12:31 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:12:32 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:13:32 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:13:33 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:14:21 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+ERROR - 2022-04-09 01:14:29 --> Table 'pr1_db.users' doesn't exist
+CRITICAL - 2022-04-09 01:14:29 --> Table 'pr1_db.users' doesn't exist
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\UserdataAPI.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-09 01:14:41 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:35 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:36 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:37 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:37 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:38 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:15:39 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:16:22 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:18:38 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:18:42 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:11 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:12 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:13 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:14 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:15 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:16 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:16 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:17 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:17 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:17 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:18 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:19 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:19:20 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 15)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:20:52 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 17)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:22:33 --> Undefined property: App\Controllers\Itemsapi::$model
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Pemrograman\\...', 18)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:29:18 --> Call to undefined method App\Models\ItemsModel::getValidationMessage
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(19): CodeIgniter\Model->__call('getValidationMe...', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:34:53 --> Call to undefined method App\Models\ItemsModel::getValidationMessage
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(18): CodeIgniter\Model->__call('getValidationMe...', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 01:35:27 --> Call to undefined method App\Models\ItemsModel::getValidationMessage
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(18): CodeIgniter\Model->__call('getValidationMe...', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-09 02:02:58 --> Attempt to read property "errno" on bool
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Pemrograman\\...', 555)
+#1 D:\Pemrograman\Website\project-one\system\Model.php(726): CodeIgniter\Database\MySQLi\Connection->error()
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(40): CodeIgniter\Model->__call('error', Array)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->insertItem()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-09 02:05:00 -->  is not a valid rule.
+#0 D:\Pemrograman\Website\project-one\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Pemrograman\Website\project-one\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#2 D:\Pemrograman\Website\project-one\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, 'default')
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(37): CodeIgniter\BaseModel->save(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->insertItem()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-09 02:09:07 --> Column 'item_name' cannot be null
+CRITICAL - 2022-04-09 02:09:07 --> Column 'item_name' cannot be null
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->insertItem()
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#10 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#13 {main}
+ERROR - 2022-04-09 02:09:29 --> Column 'item_name' cannot be null
+CRITICAL - 2022-04-09 02:09:29 --> Column 'item_name' cannot be null
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->insertItem()
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#10 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#13 {main}

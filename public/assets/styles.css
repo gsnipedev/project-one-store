@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+    .topsection {
+        
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 70vh;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+
+    #hero_title {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 120px;
+    }
+
+    #hero_sub_title {
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+        color: white;
+    }
+    .section2{
+        
+        padding-top: 30;
+        min-height: 500px;
+        
+    }
+    .font-railway{
+        font-family: 'Raleway', sans-serif;
+    }
+    .font-rubik{
+        font-family: 'Rubik', sans-serif;
+    }
+    .featured-item-list{
+        
+        display: flex;
+        
+        
+    }
+    .overlayed{
+        filter: grayscale()
+    }
+    .card-img-top{
+        border-radius: 20px;
+        max-width: 300px;
+        width: 250px;
+        transition: .3s;
+        
+    }
+    .card-img-top:hover{
+        transform: scale(1.15);
+        
+        overflow: hidden;
+    }
+    .section3{
+        min-height: 600px;
+    }
+    
+    .section4{
+        min-height: 600px;
+        
+    }
+    .roboto-condensed{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .footer{
+        min-height: 70vh;
+        
+    }
+    
+
+    
+    @media screen and (max-width:768px){
+        .topsection{
+            height: 100vh;
+        }
+    }
+
+    

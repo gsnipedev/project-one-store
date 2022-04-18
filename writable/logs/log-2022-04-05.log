@@ -1,0 +1,59 @@
+CRITICAL - 2022-04-05 17:09:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\codeigniter4-CodeIgniter4-202f41a\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\codeigniter4-CodeIgniter4-202f41a\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 17:10:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 17:12:24 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 17:13:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 17:14:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 17:23:14 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\website\project-one\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\website\project-one\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-05 12:21:10 --> syntax error, unexpected token "echo", expecting ";"
+#0 D:\xampp\htdocs\website\project-one\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('helloworld')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('helloworld')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 12:22:50 --> syntax error, unexpected token "echo", expecting ";"
+#0 D:\xampp\htdocs\website\project-one\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('helloworld')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('helloworld')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 17:04:36 --> syntax error, unexpected token "echo"
+#0 D:\xampp\htdocs\website\project-one\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\website\project-one\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 D:\xampp\htdocs\website\project-one\app\Controllers\Home.php(10): view('index')
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

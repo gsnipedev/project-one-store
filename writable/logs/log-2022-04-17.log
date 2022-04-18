@@ -1,0 +1,370 @@
+CRITICAL - 2022-04-17 01:29:54 --> Call to undefined method App\Models\LikesModel::count
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(75): CodeIgniter\Model->__call('count', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-17 01:30:09 --> Call to a member function get() on int
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-17 01:33:35 --> Column 'item_id' in group statement is ambiguous
+CRITICAL - 2022-04-17 01:33:35 --> Column 'item_id' in group statement is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(82): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:35:45 --> Unknown column 'inner' in 'from clause'
+CRITICAL - 2022-04-17 01:35:45 --> Unknown column 'inner' in 'from clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(82): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:42:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`total`) AS `item_id = total`
+FROM `likes`' at line 1
+CRITICAL - 2022-04-17 01:42:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`total`) AS `item_id = total`
+FROM `likes`' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`i...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-17 01:46:15 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, App\Models\LikesModel given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join(Object(App\Models\LikesModel), 'likes.total_lik...')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(76): CodeIgniter\Model->__call('join', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-17 01:46:30 --> Unknown column 'likes.total_like' in 'on clause'
+CRITICAL - 2022-04-17 01:46:30 --> Unknown column 'likes.total_like' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:47:12 --> Column 'item_id' in field list is ambiguous
+CRITICAL - 2022-04-17 01:47:12 --> Column 'item_id' in field list is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`i...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:47:21 --> Column 'item_id' in group statement is ambiguous
+CRITICAL - 2022-04-17 01:47:21 --> Column 'item_id' in group statement is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(`l...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`l...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`l...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`l...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:49:07 --> Column 'item_id' in field list is ambiguous
+CRITICAL - 2022-04-17 01:49:07 --> Column 'item_id' in field list is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `item_id...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:50:08 --> Unknown column 'likes.item_id' in 'field list'
+CRITICAL - 2022-04-17 01:50:08 --> Unknown column 'likes.item_id' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:54:01 --> Column 'item_id' in order clause is ambiguous
+CRITICAL - 2022-04-17 01:54:01 --> Column 'item_id' in order clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:54:14 --> Column 'item_id' in order clause is ambiguous
+CRITICAL - 2022-04-17 01:54:14 --> Column 'item_id' in order clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 01:58:30 --> Not unique table/alias: 'items'
+CRITICAL - 2022-04-17 01:58:30 --> Not unique table/alias: 'items'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 02:00:17 --> Column 'item_id' in field list is ambiguous
+CRITICAL - 2022-04-17 02:00:17 --> Column 'item_id' in field list is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `item_id...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-17 02:01:18 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'D:\\Pemrograman\\...', 375)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(375): trim(NULL)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->select(Object(App\Models\ItemsModel))
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(76): CodeIgniter\Model->__call('select', Array)
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#9 {main}
+ERROR - 2022-04-17 02:01:27 --> Unknown column 'items' in 'field list'
+CRITICAL - 2022-04-17 02:01:27 --> Unknown column 'items' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `items`,...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `items`,...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `items`,...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `items`,...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getLikes')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-17 02:22:25 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-17 12:10:12 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-17 22:56:13 --> Column 'item_id' in order clause is ambiguous
+CRITICAL - 2022-04-17 22:56:13 --> Column 'item_id' in order clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 22:56:35 --> Column 'item_id' in order clause is ambiguous
+CRITICAL - 2022-04-17 22:56:35 --> Column 'item_id' in order clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 22:59:51 --> Unknown column 'likes.likes_id' in 'on clause'
+CRITICAL - 2022-04-17 22:59:51 --> Unknown column 'likes.likes_id' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-17 23:02:57 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-17 23:38:03 --> Column 'item_id' in order clause is ambiguous
+CRITICAL - 2022-04-17 23:38:03 --> Column 'item_id' in order clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 23:40:55 --> Unknown column 'likes' in 'field list'
+CRITICAL - 2022-04-17 23:40:55 --> Unknown column 'likes' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `items`....', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `items`....')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `items`....')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `items`....', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 23:41:07 --> Unknown column 'category' in 'field list'
+CRITICAL - 2022-04-17 23:41:07 --> Unknown column 'category' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `items`....', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `items`....')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `items`....')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `items`....', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-17 23:52:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `items`
+LEFT JOIN `likes` ON `likes`.`item_id` = `items`.`item_id`
+JOI...' at line 1
+CRITICAL - 2022-04-17 23:52:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `items`
+LEFT JOIN `likes` ON `likes`.`item_id` = `items`.`item_id`
+JOI...' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `items`....', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `items`....')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `items`....')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `items`....', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(30): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}

@@ -1,0 +1,284 @@
+ERROR - 2022-04-14 00:35:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 00:35:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(24): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+CRITICAL - 2022-04-14 00:58:20 --> Call to a member function first() on bool
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->delete('hehe2')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-14 00:59:57 --> App\Controllers\Itemsapi::respond(): Argument #2 ($status) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php on line 64
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(64): App\Controllers\Itemsapi->respond('success delete', 'hehe2')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->delete('hehe2')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-14 01:00:18 --> App\Controllers\Itemsapi::respond(): Argument #2 ($status) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php on line 64
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(64): App\Controllers\Itemsapi->respond('success delete', 'hehe')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->delete('hehe')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-14 01:00:47 --> Unsupported operand types: string + string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->delete('hehe')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:59:40 --> Call to a member function join() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-14 04:01:28 --> Call to a member function join() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-14 04:03:13 --> Call to a member function join() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-14 04:04:43 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:04:43 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:04:54 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:04:54 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:04:55 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:04:55 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:05:05 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:05:05 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:05:06 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:05:06 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:05:23 --> Column 'category_id' in on clause is ambiguous
+CRITICAL - 2022-04-14 04:05:23 --> Column 'category_id' in on clause is ambiguous
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->first()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-14 04:07:44 --> Unknown column 'items.category_name' in 'on clause'
+CRITICAL - 2022-04-14 04:07:44 --> Unknown column 'items.category_name' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(61): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('hee')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-14 07:27:43 --> Undefined variable $imageUrl
+#0 D:\Pemrograman\Website\project-one\app\Views\all-collections.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Pemrograman\\...', 96)
+#1 D:\Pemrograman\Website\project-one\system\View\View.php(210): include('D:\\Pemrograman\\...')
+#2 D:\Pemrograman\Website\project-one\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Pemrograman\Website\project-one\system\Common.php(1089): CodeIgniter\View\View->render('all-collections', Array, true)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Home.php(21): view('all-collections')
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Home->Collections()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+CRITICAL - 2022-04-14 07:45:35 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-14 13:32:15 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-14 13:32:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 13:32:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(26): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-14 13:32:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 13:32:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getCategory')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-14 23:06:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 23:06:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(26): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-14 23:06:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 23:06:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getCategory')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-14 23:08:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 23:08:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(26): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-14 23:08:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 23:08:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getCategory')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}

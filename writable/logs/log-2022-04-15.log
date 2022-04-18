@@ -1,0 +1,325 @@
+CRITICAL - 2022-04-15 03:46:06 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-15 03:46:29 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-15 03:46:31 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-15 03:47:27 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-15 09:07:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-15 09:07:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(26): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-15 09:08:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-15 09:08:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('getCategory')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-15 09:08:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-15 09:08:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(67): CodeIgniter\BaseModel->findAll()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('allCollection')
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#10 {main}
+ERROR - 2022-04-15 09:20:29 --> Unknown column 'items.collection_name' in 'on clause'
+CRITICAL - 2022-04-15 09:20:29 --> Unknown column 'items.collection_name' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(26): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 09:26:49 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-04-15 09:26:49 --> Unknown column 'id' in 'order clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(27): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-15 10:49:37 --> Call to a member function limit() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-15 10:54:20 --> Call to undefined method App\Models\ItemsModel::getRow
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->index()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+ERROR - 2022-04-15 12:59:31 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 12:59:31 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('bang')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 12:59:33 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 12:59:33 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('bangers')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:00:04 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 13:00:04 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('banger')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('banger')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('banger')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+CRITICAL - 2022-04-15 13:00:05 --> Unknown column 'collection_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('banger')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:31 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:31 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('tro')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:36 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:36 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('trou')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:39 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:39 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knif')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:44 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:44 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knif')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:44 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:44 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knif')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:02:57 --> Not unique table/alias: 'category'
+CRITICAL - 2022-04-15 13:02:57 --> Not unique table/alias: 'category'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knife')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:03:29 --> Unknown column 'category.collection_id' in 'on clause'
+CRITICAL - 2022-04-15 13:03:29 --> Unknown column 'category.collection_id' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knif')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-15 13:03:53 --> Unknown column 'category.collection_id' in 'on clause'
+CRITICAL - 2022-04-15 13:03:53 --> Unknown column 'category.collection_id' in 'on clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(80): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('knif')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}

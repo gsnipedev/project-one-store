@@ -1,0 +1,244 @@
+ERROR - 2022-04-07 00:43:06 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-07 01:16:16 --> Call to a member function findAll() on null
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\Items->index()
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 01:24:36 --> Call to a member function findAll() on null
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\Items->index()
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 01:30:43 --> Call to a member function findAll() on null
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\Items->index()
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-07 01:32:14 --> Table 'pr1_db.items' doesn't exist
+CRITICAL - 2022-04-07 01:32:14 --> Table 'pr1_db.items' doesn't exist
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\website\project-one\app\Controllers\Items.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\Items->index()
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 01:51:40 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\ItemsAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\It...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\It...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\It...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\It...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\ItemsAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\ItemsAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:58:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\userdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:58:34 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:58:35 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:58:36 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:59:26 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 04:59:55 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:00:28 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\UserdataAPI given
+#0 D:\xampp\htdocs\website\project-one\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 D:\xampp\htdocs\website\project-one\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 D:\xampp\htdocs\website\project-one\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 D:\xampp\htdocs\website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->index()
+#7 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#8 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:08:18 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php on line 20
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\BaseModel->findAll(Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->tesss()
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 05:09:21 --> Call to undefined method App\Models\UsersModel::findField
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findField', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->tesss()
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 05:09:40 --> Call to undefined method App\Models\UsersModel::findRow
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findRow', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->tesss()
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 05:13:59 --> Undefined variable $username
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->tesss()
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 05:32:15 --> Call to undefined method App\Models\UsersModel::findByUsername
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findByUsername', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('search', 'andika')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 05:32:24 --> Call to undefined method App\Models\UsersModel::findById
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findById', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('search', 'andika')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 08:27:54 --> Call to undefined method App\Models\UsersModel::findById
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findById', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show()
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 08:28:57 --> Call to undefined method App\Models\UsersModel::findById
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findById', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('1')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 08:29:35 --> Call to undefined method App\Models\UsersModel::findByusername
+#0 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('findByusername', Array)
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('1')
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 08:34:04 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, string given, called in D:\xampp\htdocs\website\project-one\system\Model.php on line 728
+#0 D:\xampp\htdocs\website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('username', 'andika')
+#1 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(20): CodeIgniter\Model->__call('getWhere', Array)
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('andika')
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#4 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 08:34:41 --> Call to undefined method App\Entities\UserdataAPI::getRowArray()
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('andika')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 08:34:50 --> Call to undefined method App\Entities\UserdataAPI::getRow()
+#0 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show('andika')
+#1 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#2 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 08:37:47 --> 1 is not a valid HTTP return status code
+#0 D:\xampp\htdocs\website\project-one\system\HTTP\ResponseTrait.php(151): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(1)
+#1 D:\xampp\htdocs\website\project-one\system\API\ResponseTrait.php(104): CodeIgniter\HTTP\Response->setStatusCode(1, '')
+#2 D:\xampp\htdocs\website\project-one\app\Controllers\UserdataAPI.php(22): CodeIgniter\RESTful\ResourceController->respond(Object(App\Entities\UserdataAPI), 1)
+#3 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show()
+#4 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#5 D:\xampp\htdocs\website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 10:23:52 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\UserdataAPI->show()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserdataAPI))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-07 22:18:29 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:21:34 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:25:58 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:27:22 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:34:01 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:44:04 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 22:44:15 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:40:26 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:44:28 --> Can't create table `pr1_db`.`items` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:47:10 --> Table 'user_data' already exists
+ERROR - 2022-04-07 23:47:51 --> Table 'user_data' already exists
+ERROR - 2022-04-07 23:48:11 --> Table 'user_data' already exists
+ERROR - 2022-04-07 23:51:33 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:51:57 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:52:34 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-07 23:55:07 --> Can't create table `pr1_db`.`user_data` (errno: 150 "Foreign key constraint is incorrectly formed")
