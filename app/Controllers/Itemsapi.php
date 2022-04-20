@@ -22,10 +22,10 @@ class Itemsapi extends ResourceController
             return $this->fail('Wrong API key');
         }
         $this->model->join('likes', 'likes.item_id = items.item_id', 'left');
-        $this->model->join('category', 'category.category_id = items.category_id');
-        $this->model->join('collections', 'collections.collection_id = items.collection_id');
+        $this->model->join('category', 'category.category_id = items.category_id', 'left');
+        $this->model->join('collections', 'collections.collection_id = items.collection_id', 'left');
         $this->model->select('items.*, category.*, collections.*')->selectCount('likes.item_id', 'total_like')->groupBy('items.item_id');
-        //$this->model->orderBy('item_id', 'ASC');
+        $this->model->orderBy('item_name', 'ASC');
         return $this->respond([
             'Response' => 'success',
             'items' => $this->model->findAll(),
@@ -43,6 +43,7 @@ class Itemsapi extends ResourceController
             'price' => $this->request->getVar('price'),
             'item_image' => $this->request->getVar('item_image'),
             'category_id' => $this->request->getVar('category_id'),
+            'collection_id' => $this->request->getVar('collection_id'),
             'updated_date' => Time::now(),
             'created_date' => Time::now(),
 
@@ -63,6 +64,14 @@ class Itemsapi extends ResourceController
             return $this->respond([
                 'status' => 'Success',
                 'category' => $categoryModel->findAll(),
+            ]);
+        }
+        if ($id == 'getCollection') {
+
+            $collectionModel = model('App\Models\CollectionsModel');
+            return $this->respond([
+                'status' => 'Success',
+                'collection' => $collectionModel->findAll(),
             ]);
         }
         if ($id == 'allCollection') {

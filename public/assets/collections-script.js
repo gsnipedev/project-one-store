@@ -63,7 +63,7 @@ function collectionShowAll() {
     dataType: "json",
     success: function (response) {
       colData = response.items;
-      //console.log(colData);
+      console.log(colData);
       content = "";
 
       $.each(colData, async function (indexInArray, valueOfElement) {

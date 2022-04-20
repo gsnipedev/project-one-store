@@ -172,10 +172,27 @@ $.ajax({
     //FREE ME, FREE ANDIKA, FREE GSNIPE
     $data = response.category;
     $.each($data, function (indexInArray, valueOfElement) {
-      console.log(valueOfElement.category_name);
+      //console.log(valueOfElement.category_name);
       categoryContent += `<option value="${valueOfElement.category_id}">${valueOfElement.category_name}</option>`;
     });
     $(".adminCategorySelect").html(categoryContent);
+  },
+});
+
+collectionContent = `<option value="" disabled selected>Collection</option>0`;
+$.ajax({
+  type: "GET",
+  url: "http://localhost:8080/itemsapi/getCollection",
+  //data: "data",
+  dataType: "json",
+  success: function (response) {
+    //FREE ME, FREE ANDIKA, FREE GSNIPE
+    $data = response.collection;
+    $.each($data, function (indexInArray, valueOfElement) {
+      //console.log(valueOfElement.collection_name);
+      collectionContent += `<option value="${valueOfElement.collection_id}">${valueOfElement.collection_name}</option>`;
+    });
+    $(".adminCollectionSelect").html(collectionContent);
   },
 });
 
@@ -183,14 +200,6 @@ function adminAddItem() {
   console.log("Added");
 }
 
-function tessx() {
-  console.log($(".adminCategorySelect").val());
-}
-
 function adminShowDetail() {
   console.log("detail");
 }
-
-$(window).load(function () {
-  console.log("loading....");
-});

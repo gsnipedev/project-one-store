@@ -216,7 +216,6 @@
 
                             <select id="disabledSelect" class="form-select adminCategorySelect" name="category_id">
 
-
                             </select>
                         </div>
                         <div class="input-group mb-3">
@@ -228,6 +227,12 @@
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">$</span>
                             <input type="text" class="form-control" placeholder="Price" name="price">
+                        </div>
+                        <div class="mb-3">
+
+                            <select id="disabledSelect" class="form-select adminCollectionSelect" name="collection_id">
+
+                            </select>
                         </div>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Image URL" name="item_image">
