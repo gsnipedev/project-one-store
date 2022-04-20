@@ -85,7 +85,9 @@ function collectionShowAll() {
                             <div class="col">
                                 <i class="fa-solid fa-heart item-like-button ${
                                   checkLike(valueOfElement.item_id) == true ? "text-danger" : "text-dark"
-                                }"></i>&nbsp;<span class="item-likes-count">${valueOfElement.total_like}</span>
+                                }" data-item-name="${
+          valueOfElement.item_name
+        }"></i>&nbsp;<span class="item-likes-count">${valueOfElement.total_like}</span>
                                 &nbsp;
                                 <i class="fa-solid fa-comment item-comment-button"></i> 99
                             </div>
@@ -99,7 +101,8 @@ function collectionShowAll() {
       $(".item-collection-container").html(content);
       $(".item-like-button").click(function (e) {
         e.preventDefault();
-
+        console.log($(this).attr("data-item-name"));
+        likeDislike($(this).attr("data-item-name"));
         if ($(this).hasClass("text-danger")) {
           $(this).removeClass("text-danger");
           likesCount = $($(this).parent().children(":nth-child(2)")).html();
@@ -153,6 +156,20 @@ function checkLike(elem) {
     },
   });
   return result;
+}
+
+function likeDislike(elem) {
+  $.ajax({
+    type: "GET",
+    url: `http://localhost:8080/itemsapi/likeDislike/${elem}`,
+    data: {
+      elements: elem,
+    },
+    dataType: "json",
+    success: function (response) {
+      console.log(response);
+    },
+  });
 }
 
 //console.log(checkLike(21));

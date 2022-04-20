@@ -46,7 +46,7 @@ $isLogin = $session->get('logged_in');
     <title>Collections</title>
 </head>
 
-<body class="bg-light">
+<body class="bg-light" oncontextmenu="return false">
 
 
     <div class="container-sm">

@@ -1,0 +1,940 @@
+CRITICAL - 2022-04-19 01:09:34 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-19 03:49:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+CRITICAL - 2022-04-19 03:49:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 03:50:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+CRITICAL - 2022-04-19 03:50:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 03:50:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+CRITICAL - 2022-04-19 03:50:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 5
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 03:53:08 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-19 03:53:16 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-19 03:58:48 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 03:59:01 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 03:59:55 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 03:59:55 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 04:00:19 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:00:19 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(102): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 04:00:32 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:00:32 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(101): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 04:03:26 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:03:26 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(102): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:05:18 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(103): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 04:08:34 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:08:34 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(102): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:10:52 --> Call to a member function delete() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-19 04:11:06 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 04:18:52 --> Call to a member function delete() on array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-19 04:19:04 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:19:04 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:45:00 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('item_id')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('get', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-19 04:45:15 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('item_id')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(101): CodeIgniter\Model->__call('get', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-19 04:46:44 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:46:44 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(101): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#11 {main}
+ERROR - 2022-04-19 04:46:53 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:46:53 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(101): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#11 {main}
+ERROR - 2022-04-19 04:47:22 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:47:22 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->findAll()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 04:48:00 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:48:00 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:48:19 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(102): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 04:49:19 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:49:19 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 04:52:12 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 04:52:12 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:54:36 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 04:55:07 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-04-19 04:55:07 --> Unknown column 'username' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 04:58:52 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('item_id')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\Model->__call('get', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-19 05:01:27 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:01:27 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->first()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:01:27 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:01:27 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->first()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 05:01:51 --> Call to a member function findAll() on null
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+CRITICAL - 2022-04-19 05:05:16 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(100): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 05:05:46 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:05:46 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:06:06 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:06:06 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:06:08 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:06:08 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:06:15 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:06:15 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:06:28 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:06:28 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:07:06 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:07:06 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(99): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 05:10:18 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('*')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('get', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+CRITICAL - 2022-04-19 05:13:37 --> Call to undefined method App\Models\LikesModel::getResult
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-19 05:13:41 --> Call to undefined method App\Models\LikesModel::getResult
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-19 05:15:36 --> Call to undefined method App\Models\LikesModel::result
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('result', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-19 05:15:57 --> Call to undefined method App\Models\LikesModel::getRow
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+CRITICAL - 2022-04-19 05:17:35 --> Call to undefined method App\Models\LikesModel::row
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(98): CodeIgniter\Model->__call('row', Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+ERROR - 2022-04-19 05:19:43 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:19:43 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 05:20:20 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php on line 105
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete(Array, Array)
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#6 {main}
+ERROR - 2022-04-19 05:20:29 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:20:29 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:20:49 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:20:49 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:21:48 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:21:48 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:22:00 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:22:00 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:23:14 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:23:14 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:23:25 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:23:25 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete(Array)
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:25:46 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:25:46 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 05:27:36 --> Call to a member function delete() on string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#5 {main}
+ERROR - 2022-04-19 05:28:24 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:28:24 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:29:14 --> Unknown column 'likes.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:29:14 --> Unknown column 'likes.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:29:28 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:29:28 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:30:18 --> Unknown column '*.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:30:18 --> Unknown column '*.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:30:26 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:30:26 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:30:42 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:30:42 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:30:43 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:30:43 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:36:51 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:36:51 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 05:39:29 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, string given, called in D:\Pemrograman\Website\project-one\system\Model.php on line 728
+#0 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('items.item_name', 'Saw')
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(103): CodeIgniter\Model->__call('getWhere', Array)
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}
+ERROR - 2022-04-19 05:39:52 --> Unknown column 'user_data.username' in 'where clause'
+CRITICAL - 2022-04-19 05:39:52 --> Unknown column 'user_data.username' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(104): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#11 {main}
+CRITICAL - 2022-04-19 05:43:06 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(106): CodeIgniter\BaseModel->delete()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 05:43:12 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2176): CodeIgniter\Database\BaseBuilder->delete('', NULL, true)
+#1 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getCompiledDelete()
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(112): CodeIgniter\Model->__call('getCompiledDele...', Array)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 05:43:14 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2176): CodeIgniter\Database\BaseBuilder->delete('', NULL, true)
+#1 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getCompiledDelete()
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(112): CodeIgniter\Model->__call('getCompiledDele...', Array)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 05:44:06 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2176): CodeIgniter\Database\BaseBuilder->delete('', NULL, true)
+#1 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getCompiledDelete()
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(111): CodeIgniter\Model->__call('getCompiledDele...', Array)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+CRITICAL - 2022-04-19 05:45:26 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2176): CodeIgniter\Database\BaseBuilder->delete('', NULL, true)
+#1 D:\Pemrograman\Website\project-one\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getCompiledDelete()
+#2 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(111): CodeIgniter\Model->__call('getCompiledDele...', Array)
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#8 {main}
+ERROR - 2022-04-19 05:45:51 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:45:51 --> Unknown column 'items.item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:46:35 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:46:35 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+ERROR - 2022-04-19 05:46:41 --> Unknown column 'item_name' in 'where clause'
+CRITICAL - 2022-04-19 05:46:41 --> Unknown column 'item_name' in 'where clause'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `li...', 0)
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 D:\Pemrograman\Website\project-one\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(105): CodeIgniter\BaseModel->delete()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show('likeDislike')
+#8 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Itemsapi))
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#12 {main}
+CRITICAL - 2022-04-19 10:37:46 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', 'D:\\Pemrograman\\...', 20)
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccountapi))
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('D:\\Pemrograman\\...')
+#7 {main}

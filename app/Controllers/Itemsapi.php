@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\LikesModel;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\I18n\Time;
@@ -84,6 +85,35 @@ class Itemsapi extends ResourceController
 
 
             ]);
+        }
+
+        if ($id == 'likeDislike') {
+            $element = $this->request->getVar('elements');
+            $username = session()->get('username');
+            $likesModel = model('App\Models\LikesModel');
+            $likesModel->join('user_data', 'user_data.user_id = likes.user_id');
+            $likesModel->join('items', 'items.item_id = likes.item_id');
+            $likesModel->where('item_name', $element);
+            $final = $likesModel->where('username', $username);
+            if ($final->findAll() != null) {
+                $db = db_connect();
+                $db->query(
+                    "DELETE likes FROM likes 
+                    INNER JOIN user_data ON user_data.user_id=likes.user_id 
+                    INNER JOIN items ON items.item_id=likes.item_id
+                    WHERE user_data.username='$username' AND items.item_name='$element'
+                     "
+                );
+                return;
+            }
+            return $this->respond(
+                [
+                    'status' => 'LIKED',
+                    'username' => $username,
+                    'tableLike' => $likesModel->findAll(),
+                ]
+
+            );
         }
 
         $this->model->join('likes', 'likes.item_id = items.item_id', 'left');

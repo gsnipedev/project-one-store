@@ -13,7 +13,7 @@ class LikesModel extends Model
     protected $insertID         = 0;
     protected $returnType       = 'App\Entities\LikesEntity';
     protected $useSoftDeletes   = false;
-    protected $protectFields    = true;
+    protected $protectFields    = false;
     protected $allowedFields    = [];
 
     // Dates
@@ -26,7 +26,7 @@ class LikesModel extends Model
     // Validation
     protected $validationRules      = [];
     protected $validationMessages   = [];
-    protected $skipValidation       = false;
+    protected $skipValidation       = true;
     protected $cleanValidationRules = true;
 
     // Callbacks
