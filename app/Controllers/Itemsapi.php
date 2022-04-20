@@ -6,6 +6,7 @@ use App\Models\LikesModel;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\I18n\Time;
+use mysqli_result;
 
 class Itemsapi extends ResourceController
 {
@@ -88,6 +89,9 @@ class Itemsapi extends ResourceController
         }
 
         if ($id == 'likeDislike') {
+
+            //Fungsi untuk dislike
+
             $element = $this->request->getVar('elements');
             $username = session()->get('username');
             $likesModel = model('App\Models\LikesModel');
@@ -106,11 +110,35 @@ class Itemsapi extends ResourceController
                 );
                 return;
             }
+            //Fungsi untuk Like
+            $db2 = db_connect();
+            $userId = $db2->query(
+                "SELECT user_id FROM user_data
+                WHERE username = '$username'
+             "
+            );
+            $itemId = $db2->query(
+                "SELECT item_id FROM items
+                WHERE item_name='$element'
+                "
+            );
+
+            foreach ($userId->getResult('array') as $row) {
+                $uid = $row['user_id'];
+            }
+            foreach ($itemId->getResult('array') as $row) {
+                $iid = $row['item_id'];
+            }
+
+            $db2->query(
+                "INSERT INTO likes (`like_id`, `item_id`, `user_id`) VALUES (NULL, '$iid','$uid')"
+            );
             return $this->respond(
                 [
                     'status' => 'LIKED',
                     'username' => $username,
-                    'tableLike' => $likesModel->findAll(),
+                    'uid' => $uid,
+                    'iid' => $iid,
                 ]
 
             );
