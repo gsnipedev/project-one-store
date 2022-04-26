@@ -42,6 +42,7 @@ class Itemsapi extends ResourceController
             'size' => $this->request->getVar('size'),
             'price' => $this->request->getVar('price'),
             'item_image' => $this->request->getVar('item_image'),
+            'item_desc' => $this->request->getVar('item_desc'),
             'category_id' => $this->request->getVar('category_id'),
             'collection_id' => $this->request->getVar('collection_id'),
             'updated_date' => Time::now(),

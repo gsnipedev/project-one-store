@@ -20,6 +20,25 @@ class Home extends BaseController
     {
         return view('all-collections');
     }
+    public function product()
+    {
+        $db = db_connect();
+        $id_temp = $this->request->getVar('item-id');
+        $result = $db->query("SELECT * FROM items WHERE item_id='$id_temp' ");
+        try {
+            foreach ($result->getResult('array') as $row) {
+                $data['itemId'] = $row['item_id'];
+                $data['itemName'] = $row['item_name'];
+                $data['itemImg'] = $row['item_image'];
+                $data['itemDesc'] = $row['item_desc'];
+                $data['itemPrice'] = $row['price'];
+                break;
+            }
+            return view('product', $data);
+        } catch (\Throwable $th) {
+            return view('errors/html/error_404');
+        }
+    }
 
     public function Pictures()
     {

@@ -37,7 +37,7 @@ function onSuccess(googleUser) {
   console.log("Image URL: " + profile.getImageUrl());
   console.log("Email: " + profile.getEmail()); // This is null if the 'email' scope is not present.
   console.log("id token: " + id_token);
-  successLoginNotification((profileName = profile.getName()));
+  //successLoginNotification((profileName = profile.getName()));
 
   $.ajax({
     type: "POST",

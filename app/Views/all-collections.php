@@ -19,6 +19,7 @@ $isLogin = $session->get('logged_in');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
@@ -70,7 +71,7 @@ $isLogin = $session->get('logged_in');
                     <a class="navbar-brand" href="#">My Store</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="<?= base_url() ?>">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -143,7 +144,7 @@ $isLogin = $session->get('logged_in');
     </div>
 
     <section class="mt-4 mb-4 bg-dark d-flex align-items-center" style="height: 40vh">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center ps-5">
                     <p class="roboto-condensed fs-1 text-light heroTitle">All Collections</p>
@@ -289,6 +290,10 @@ $isLogin = $session->get('logged_in');
 
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 
 </body>
 

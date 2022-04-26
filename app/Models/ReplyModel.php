@@ -4,14 +4,14 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class LikesModel extends Model
+class ReplyModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'likes';
-    protected $primaryKey       = 'like_id';
+    protected $table            = 'comment_replies';
+    protected $primaryKey       = 'reply_id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
-    protected $returnType       = 'App\Entities\LikesEntity';
+    protected $returnType       = 'App\Entities\replyEntity';
     protected $useSoftDeletes   = false;
     protected $protectFields    = false;
     protected $allowedFields    = [];
@@ -25,11 +25,11 @@ class LikesModel extends Model
 
     // Validation
     protected $validationRules      = [
-        'item_id' => 'required',
-        'user_id' => 'required',
+        'comment_ids' => 'required',
+        'reply_text' => 'required',
     ];
     protected $validationMessages   = [];
-    protected $skipValidation       = true;
+    protected $skipValidation       = false;
     protected $cleanValidationRules = true;
 
     // Callbacks

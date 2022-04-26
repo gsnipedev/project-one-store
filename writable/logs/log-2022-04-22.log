@@ -1,0 +1,73 @@
+CRITICAL - 2022-04-22 01:18:43 --> Array to string conversion
+#0 D:\Pemrograman\Website\project-one\app\Views\product.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\View\View.php(210): include('...')
+#2 D:\Pemrograman\Website\project-one\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Pemrograman\Website\project-one\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 D:\Pemrograman\Website\project-one\app\Controllers\Home.php(32): view()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Home->product()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-22 01:23:33 --> Table 'pr1_db.item_data' doesn't exist
+CRITICAL - 2022-04-22 01:23:33 --> Table 'pr1_db.item_data' doesn't exist
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Home->product()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-22 01:23:53 --> Undefined variable $data
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Home->product()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-22 02:50:11 --> Undefined variable $uid
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-22 02:52:08 --> Undefined variable $uid
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-22 03:20:13 --> Undefined variable $uid
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Itemsapi.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Itemsapi->show()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2022-04-22 12:52:04 --> Column 'comment_text' cannot be null
+CRITICAL - 2022-04-22 12:52:04 --> Column 'comment_text' cannot be null
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Pemrograman\Website\project-one\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 D:\Pemrograman\Website\project-one\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#7 D:\Pemrograman\Website\project-one\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#8 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(28): CodeIgniter\BaseModel->save()
+#9 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->create()
+#10 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#14 {main}

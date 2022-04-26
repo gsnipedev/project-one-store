@@ -13,7 +13,7 @@ $(document).ready(function () {
         content += `
 
 
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="zoom-out-right">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-xl-5 overflow-hidden">
@@ -68,8 +68,8 @@ function collectionShowAll() {
 
       $.each(colData, async function (indexInArray, valueOfElement) {
         content += `
-        <div class="col-6 col-md-3 mb-3">
-                    <div class="overflow-hidden" style="width: auto;">
+        <div class="col-6 col-md-3 mb-3 collection-item-card" name="${valueOfElement.item_id}" data-aos="fade-in">
+                    <div class="overflow-hidden collection-img-card" style="width: auto;">
                         <img src="${valueOfElement.item_image}"
                             alt="" class="img-fluid itemImage" width="300" height="400">
                     </div>
@@ -115,6 +115,10 @@ function collectionShowAll() {
         likesCount = $($(this).parent().children(":nth-child(2)")).html();
         likesCount = parseInt(likesCount) + 1;
         $(this).parent().children(":nth-child(2)").html(likesCount);
+      });
+      $(".collection-img-card").click(function (e) {
+        e.preventDefault();
+        window.location.href = `product/?item-id=${$(this).parent().attr("name")}`;
       });
     },
   });

@@ -37,6 +37,7 @@ $routes->post('home/signIn', 'Home::signIn');
 $routes->resource('useraccountapi');
 $routes->resource('itemsapi');
 $routes->resource('userdataapi');
+$routes->resource('commentapi');
 
 
 

@@ -228,6 +228,10 @@
                             <span class="input-group-text" id="basic-addon1">$</span>
                             <input type="text" class="form-control" placeholder="Price" name="price">
                         </div>
+                        <div class="input-group mb-3">
+                            <textarea name="item_desc" id="" class="form-control" rows="5"
+                                placeholder="Description"></textarea>
+                        </div>
                         <div class="mb-3">
 
                             <select id="disabledSelect" class="form-select adminCollectionSelect" name="collection_id">
