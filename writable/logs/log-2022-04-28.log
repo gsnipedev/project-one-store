@@ -1,0 +1,122 @@
+CRITICAL - 2022-04-28 10:39:30 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-28 10:49:43 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-28 13:22:36 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php on line 83 and exactly 1 expected
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(83): CodeIgniter\BaseModel->save()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2022-04-28 13:27:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+CRITICAL - 2022-04-28 13:27:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:27:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+CRITICAL - 2022-04-28 13:27:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:27:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+CRITICAL - 2022-04-28 13:27:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:27:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+CRITICAL - 2022-04-28 13:27:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comment_id=46' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:29:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comments.comment_id=46' at line 1
+CRITICAL - 2022-04-28 13:29:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE comments.comment_id=46' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:29:54 --> Unknown column 'hehe' in 'field list'
+CRITICAL - 2022-04-28 13:29:54 --> Unknown column 'hehe' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:30:57 --> Unknown column 'hehe' in 'field list'
+CRITICAL - 2022-04-28 13:30:57 --> Unknown column 'hehe' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-28 13:31:17 --> Unknown column 'njer' in 'field list'
+CRITICAL - 2022-04-28 13:31:17 --> Unknown column 'njer' in 'field list'
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(82): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->update()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}

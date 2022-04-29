@@ -2,6 +2,7 @@ console.log("connected");
 var commentingStatus = false;
 var commentIds;
 var tempReply;
+var cmt_text;
 $(document).ready(function () {
   $(".size-list").mouseenter(function () {
     $(this).children().css("cursor", "pointer");
@@ -63,7 +64,11 @@ $.ajax({
   success: function (response) {
     data = response.respond;
     total_comment = Object.keys(data).length;
-    rank = response.status[0].rank;
+    try {
+      rank = response.status[0].rank;
+    } catch (error) {
+      rank = "null";
+    }
     comments = "";
     // $(".comment-counter").prepend(total_comment);
     $.each(data, function (indexInArray, valueOfElement) {
@@ -77,9 +82,9 @@ $.ajax({
                     <img src="${valueOfElement.img_url}" alt="" width="50" height="50"
                         class="border rounded-circle thumbnail">
                 </div>
-                <div class="col-10 col-md-5">
+                <div class="col-10 col-lg-5">
                     <div class="row">
-                        <div class="col-10 col-md-11">
+                        <div class="col-10 col-md-11  comment-text-container-primary-${valueOfElement.comment_id}">
                             <p class="roboto-condensed fs-6">${valueOfElement.username}
                               ${
                                 valueOfElement.rank == "admin"
@@ -110,7 +115,7 @@ $.ajax({
                                     ${
                                       valueOfElement.username == response.username || rank == "admin"
                                         ? `<li><a class="dropdown-item delete-comment" value="${valueOfElement.comment_id}" href=""><i class="fa-solid fa-trash-can"></i> Delete</a></li>
-                                        <li><a class="dropdown-item" value="${valueOfElement.comment_id}" href="" ><i class="fa-solid fa-pencil"></i> Edit</a></li>`
+                                        <li><a class="dropdown-item edit-comment" value="${valueOfElement.comment_id}" href=""><i class="fa-solid fa-pencil"></i> Edit</a></li>`
                                         : `<li><a class="dropdown-item" value="${valueOfElement.comment_id}" href="" ><i class="fa-solid fa-flag text-dark"></i> Report</a></li>`
                                     }
 
@@ -173,6 +178,51 @@ $.ajax({
         // },
         //dataType: "dataType",
         success: function (response) {},
+      });
+    });
+    $(".edit-comment").click(function (e) {
+      e.preventDefault();
+      if (commentingStatus === true) {
+        return;
+      }
+      commentingStatus = true;
+      commentIds = $(this).attr("value");
+      $(`.comment-text-container-primary-${commentIds}`).append(`
+      <div class="mb-3">
+         <textarea type="text" class="form-control" rows="3" placeholder="Edit"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="button" class="btn btn-light text-dark user-cancel-edit">Cancel</button>
+        <button type="submit" class="btn btn-dark user-submit-edit">Submit</button>
+      </div>
+
+      `);
+      $(".user-cancel-edit").click(function (e) {
+        e.preventDefault();
+        commentingStatus = false;
+        $(`.comment-text-container-primary-${commentIds}`).children(":nth-child(4)").remove();
+        $(`.comment-text-container-primary-${commentIds}`).children(":nth-child(3)").remove();
+      });
+      $(".user-submit-edit").click(function (e) {
+        e.preventDefault();
+        cmt_text = $(`.comment-text-container-primary-${commentIds}`)
+          .children(":nth-child(3)")
+          .children(":nth-child(1)")
+          .val();
+        console.log(cmt_text);
+        $.ajax({
+          type: "GET",
+          url: `http://localhost:8080/commentapi/${commentIds}/edit
+          `,
+          data: {
+            commentText: cmt_text,
+          },
+          //dataType: "dataType",
+          success: function (response) {
+            console.log("comment edited to " + cmt_text);
+            window.location.reload();
+          },
+        });
       });
     });
     $(".adminReplyComment").click(function (e) {
@@ -238,7 +288,7 @@ $.ajax({
               
               `
             );
-            //window.location.reload(true);
+            window.location.reload(true);
           },
           error: function () {
             commentingStatus = false;

@@ -1,0 +1,448 @@
+CRITICAL - 2022-04-29 02:37:17 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-29 02:39:42 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+ERROR - 2022-04-29 03:37:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_Id=comments.user_id' at line 1
+CRITICAL - 2022-04-29 03:37:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_Id=comments.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:37:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_Id=comments.user_id' at line 1
+CRITICAL - 2022-04-29 03:37:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_Id=comments.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:39:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+CRITICAL - 2022-04-29 03:39:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:40:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+CRITICAL - 2022-04-29 03:40:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:40:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+CRITICAL - 2022-04-29 03:40:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN user_data.user_id=comments.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:41:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE user_data.username = 'andika123'' at line 1
+CRITICAL - 2022-04-29 03:41:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE user_data.username = 'andika123'' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:42:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+CRITICAL - 2022-04-29 03:42:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:43:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE user_data.username = 'andika123'' at line 1
+CRITICAL - 2022-04-29 03:43:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE user_data.username = 'andika123'' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:43:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE username = 'andika123'' at line 1
+CRITICAL - 2022-04-29 03:43:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id WHERE username = 'andika123'' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:43:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+CRITICAL - 2022-04-29 03:43:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-04-29 03:45:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+CRITICAL - 2022-04-29 03:45:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.user_id' at line 1
+#0 D:\Pemrograman\Website\project-one\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Pemrograman\Website\project-one\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(96): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-29 03:46:49 --> Unsupported operand types: string + string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 03:47:06 --> Unsupported operand types: string + string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 03:47:07 --> Unsupported operand types: string + string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 03:48:47 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 03:50:11 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 03:50:14 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 03:51:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 03:52:29 --> syntax error, unexpected variable "$check_username", expecting ")"
+#0 D:\Pemrograman\Website\project-one\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 D:\Pemrograman\Website\project-one\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(797): class_exists()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-29 03:54:45 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:03:32 --> Undefined variable $username_valid
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:04:10 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:04:37 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:06:03 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:06:27 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:08:01 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:08:21 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:08:29 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:09:00 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-29 04:09:27 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:10:27 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:10:32 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:11:19 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:13:16 --> Undefined variable $username_valid_at_comment
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:18:04 --> Array to string conversion
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:18:12 --> Undefined array key "rank"
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:18:21 --> Object of class stdClass could not be converted to string
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:18:49 --> Undefined array key "rank"
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:19:03 --> Cannot use object of type stdClass as array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:19:27 --> Cannot use object of type stdClass as array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:19:41 --> Array to string conversion
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Commentapi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-29 04:19:49 --> Cannot use object of type stdClass as array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:22:28 --> Cannot use object of type stdClass as array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:22:36 --> Cannot use object of type stdClass as array
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:23:11 --> Undefined constant "App\Controllers\rank"
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:23:15 --> Undefined constant "App\Controllers\rank"
+#0 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Commentapi->edit()
+#1 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-29 04:27:23 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-29 04:27:27 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-29 04:43:00 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Pemrograman\Website\project-one\app\Controllers\Useraccountapi.php(20): require_once()
+#2 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(832): App\Controllers\Useraccountapi->tokenSignIn()
+#3 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 D:\Pemrograman\Website\project-one\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Pemrograman\Website\project-one\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Pemrograman\Website\project-one\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}

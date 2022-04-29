@@ -9,24 +9,19 @@ $isLogin = $session->get('logged_in');
 session()->set(['current_item' => $itemId]);
 ?>
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-signin-client_id"
-        content="886944638657-o4urpbf9h3uoohmaoogig2smlvchh56t.apps.googleusercontent.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="google-signin-client_id" content="886944638657-o4urpbf9h3uoohmaoogig2smlvchh56t.apps.googleusercontent.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="<?= base_url('assets/product_script.js') ?>"></script>
     <link rel="stylesheet" href=" <?php echo base_url('assets/styles.css') ?>">
@@ -34,23 +29,18 @@ session()->set(['current_item' => $itemId]);
     <title>Product</title>
 </head>
 
-<body style="height:300vh">
+<body>
 
     <section>
         <div class="container-sm">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                 <div class="container-fluid">
-                    <div class="input-group mb-3 navbar-brand navbar-toggler mt-3"
-                        style="border: 0; padding: 0; width: 65%;">
-                        <input type="text" class="form-control" placeholder="Search for something"
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"
-                            onclick="signOut()">GO</button>
+                    <div class="input-group mb-3 navbar-brand navbar-toggler mt-3" style="border: 0; padding: 0; width: 65%;">
+                        <input type="text" class="form-control" placeholder="Search for something" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="signOut()">GO</button>
                     </div>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -61,8 +51,7 @@ session()->set(['current_item' => $itemId]);
                                 <a class="nav-link active" aria-current="page" href="<?= base_url() ?>">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Gallery
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,8 +60,7 @@ session()->set(['current_item' => $itemId]);
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Collections
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,20 +83,18 @@ session()->set(['current_item' => $itemId]);
                         </ul>
                         <div class="user-profile-ui position-sticky">
                             <button type="button" class="btn font-rubik pp-button">
-                                <img src="<?php echo $imageUrl ?>" alt="" class="rounded-circle" height="30" width="30"
-                                    referrerpolicy="no-referrer">
+                                <img src="<?php echo $imageUrl ?>" alt="" class="rounded-circle" height="30" width="30" referrerpolicy="no-referrer">
                                 <?php echo $username ?>
                             </button>
 
-                            <div class="profile-dd position-absolute mt-3 bg-dark text-light rounded-bottom font-rubik"
-                                style="display: none; width:100%">
+                            <div class="profile-dd position-absolute mt-3 bg-dark text-light rounded-bottom font-rubik" style="display: none; width:100%">
                                 <ul class="list-group profile-dd-list-group">
                                     <li class="list-group-item">Profile</li>
                                     <li class="list-group-item">My Cart</li>
                                     <li class="list-group-item">Setting</li>
                                     <li class="list-group-item">Theme</li>
-                                    <a class="list-group-item text-decoration-none" href="home/logout">
-                                        <li class="text-decoration-none" style="list-style: none;">
+                                    <a class="list-group-item text-decoration-none" href="<?= base_url('/home/logout') ?>">
+                                        <li class="text-decoration-none" style="list-style: none;" onclick="signOut()">
                                             Logout</li>
                                     </a>
                                 </ul>
@@ -117,15 +103,16 @@ session()->set(['current_item' => $itemId]);
                     </div>
                 </div>
             </nav>
+
         </div>
     </section>
+
 
     <section>
         <div class="container-lg">
             <div class="row">
                 <div class="col-xl-6 d-flex justify-content-center mt-5" style="overflow: hidden;">
-                    <img src="<?= $itemImg ?>" alt="" class="img-fluid" width="500"
-                        style="object-fit: cover; height:500px;width:1920px">
+                    <img src="<?= $itemImg ?>" alt="" class="img-fluid" width="500" style="object-fit: cover; height:500px;width:1920px">
                 </div>
                 <div class="col-sm-6 mt-5">
                     <div>
@@ -148,13 +135,10 @@ session()->set(['current_item' => $itemId]);
                         <span class="badge rounded-pill bg-light text-dark border border-1 fs-6 ps-4 pe-4 m-1">M</span>
                         <span class="badge rounded-pill bg-light text-dark border border-1 fs-6 ps-4 pe-4 m-1">L</span>
                         <span class="badge rounded-pill bg-light text-dark border border-1 fs-6 ps-4 pe-4 m-1">XL</span>
-                        <span
-                            class="badge rounded-pill bg-light text-dark border border-1 fs-6 ps-4 pe-4 m-1">XXL</span>
+                        <span class="badge rounded-pill bg-light text-dark border border-1 fs-6 ps-4 pe-4 m-1">XXL</span>
                     </div>
                     <div style="height:max-content">
-                        <button type="button"
-                            class="btn border border-dark btn-light text-dark roboto-condensed ps-4 pe-4 fs-5"
-                            id="cart-button"><i class="fa-solid fa-basket-shopping"></i> Add to
+                        <button type="button" class="btn border border-dark btn-light text-dark roboto-condensed ps-4 pe-4 fs-5" id="cart-button"><i class="fa-solid fa-basket-shopping"></i> Add to
                             Cart</button>
 
                         <button type="button" class="btn btn-dark text-light roboto-condensed ps-4 pe-4 fs-5">Buy
@@ -202,14 +186,11 @@ session()->set(['current_item' => $itemId]);
                 </div>
                 <div class="row">
                     <div class="col-2 col-md-1">
-                        <img src="https://picsum.photos/200/200" alt="" width="50" height="50"
-                            class="border rounded-circle thumbnail">
+                        <img src="https://picsum.photos/200/200" alt="" width="50" height="50" class="border rounded-circle thumbnail">
                     </div>
                     <div class="col-10 col-lg-5 d-flex align-items-center">
                         <div class="input-group mb-3 col-12">
-                            <textarea name="comment" id="" rows="6" maxlength="255" class="form-control font-rubik"
-                                placeholder="<?= $username == "Not Login Yet" ? "Login first" : "Add your comment" ?>"
-                                <?= $username == "Not Login Yet" ? "Disabled" : ""; ?>></textarea>
+                            <textarea name="comment" id="" rows="6" maxlength="255" class="form-control font-rubik" placeholder="<?= $username == "Not Login Yet" ? "Login first" : "Add your comment" ?>" <?= $username == "Not Login Yet" ? "Disabled" : ""; ?>></textarea>
                         </div>
                     </div>
                 </div>
@@ -238,8 +219,7 @@ session()->set(['current_item' => $itemId]);
         <div class="container mb-5">
             <div class="row">
                 <div class="col-2 col-md-1">
-                    <img src="https://picsum.photos/200/200" alt="" width="50" height="50"
-                        class="border rounded-circle thumbnail">
+                    <img src="https://picsum.photos/200/200" alt="" width="50" height="50" class="border rounded-circle thumbnail">
                 </div>
                 <div class="col-10 col-md-5 d-flex align-items-center">
                     <div class="row">
@@ -331,8 +311,7 @@ session()->set(['current_item' => $itemId]);
     </section>
 
     <div class="position-fixed top-0 end-0 p-3 ms-3" style="z-index: 11">
-        <div class="toast align-items-center " id="cart-notification" role="alert" aria-live="assertive"
-            aria-atomic="true">
+        <div class="toast align-items-center " id="cart-notification" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="d-flex">
                 <div class="toast-body roboto-condensed ">
                     An item has been added to your Cart.
@@ -341,10 +320,10 @@ session()->set(['current_item' => $itemId]);
             </div>
         </div>
     </div>
-
+    <script src="<?= base_url('assets/script.js') ?>"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 
